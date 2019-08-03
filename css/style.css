@@ -42,21 +42,21 @@ img {
 
 /* ---- Navigation ---- */
 
-.main-header {
-  text-align: center;
-  padding: 8px;
-}
-
 .name {
+  float: left;
 	font-size: 1.25em;
   margin: 0;
+}
+
+.main-nav {
+  margin-top: 5px;
 }
 
 .name a,
 .main-nav a {
   display: block;
+  text-align: center;
   padding: 10px 15px;
-	text-align: center;
 }
 
 .main-nav a {
@@ -71,13 +71,23 @@ img {
 
 /* ---- Layout Containers ---- */
 
+.main-header {
+  padding: .5rem;
+}
+
 .banner {
 	color: #fff;
 	background: #3acec2;
   margin-bottom: 55px;
+  padding: 3.2rem 0;
 }
 
-main {
+.banner,
+.main-footer {
+  text-align: center;
+}
+
+.col {
   padding: 0 1rem;
 }
 
@@ -89,21 +99,12 @@ main {
 
 /* ---- Page Elements ---- */
 
-.banner {
-  text-align: center;
-  padding: 55px;
-}
-
-.banner h1 {
+.headline {
   margin-bottom: .1rem;
 }
 
 .logo {
 	width: 190px;
-}
-
-.main-footer {
-  text-align: center;
 }
 
 /* =================================
@@ -112,7 +113,32 @@ main {
 
 @media (min-width: 769px) {
 
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
 
+  .main-nav {
+    float: right;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .tagline {
+    font-size: 1.4rem;
+  }
+
+  .primary,
+  .secondary {
+    float: left;
+    width: 50%;
+  }
+
+  .tertiary {
+    width: 100%;
+  }
 
 	/* ---- Float clearfix ---- */
 
