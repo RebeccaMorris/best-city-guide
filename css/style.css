@@ -149,3 +149,24 @@ img {
 	}
 
 }
+
+@media (min-width: 1025px) {
+
+  .wrapper {
+    width: 80%;
+    max-width: 1150px;
+  }
+
+  .primary {
+    width: 40%;
+  }
+
+  .secondary,
+  .tertiary {
+    width: 30%;
+  }
+
+  .tertiary {
+    float: left;
+  }
+}
