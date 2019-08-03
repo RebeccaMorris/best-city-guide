@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Base Element Styles
 ==================================== */
 
@@ -36,18 +36,26 @@ img {
 	max-width: 100%;
 }
 
-/* ================================= 
+/* =================================
   Base Layout Styles
 ==================================== */
 
 /* ---- Navigation ---- */
 
+.main-header {
+  text-align: center;
+  padding: 8px;
+}
+
 .name {
 	font-size: 1.25em;
+  margin: 0;
 }
 
 .name a,
 .main-nav a {
+  display: block;
+  padding: 10px 15px;
 	text-align: center;
 }
 
@@ -66,6 +74,11 @@ img {
 .banner {
 	color: #fff;
 	background: #3acec2;
+  margin-bottom: 55px;
+}
+
+main {
+  padding: 0 1rem;
 }
 
 .main-footer {
@@ -76,11 +89,24 @@ img {
 
 /* ---- Page Elements ---- */
 
+.banner {
+  text-align: center;
+  padding: 55px;
+}
+
+.banner h1 {
+  margin-bottom: .1rem;
+}
+
 .logo {
 	width: 190px;
 }
 
-/* ================================= 
+.main-footer {
+  text-align: center;
+}
+
+/* =================================
   Media Queries
 ==================================== */
 
