@@ -24,7 +24,8 @@ a {
 }
 
 h2,
-h3 {
+h3,
+h4 {
 	margin-top: 0;
 }
 
@@ -34,6 +35,22 @@ a {
 
 img {
 	max-width: 100%;
+}
+
+figure {
+  position: relative;
+	margin: 0;
+	line-height: 0;
+}
+
+figcaption {
+  position: absolute;
+	font-size: .9rem;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1rem;
+	background: rgba(19,43,102, .85);
+  bottom: 0;
 }
 
 /* =================================
@@ -109,6 +126,13 @@ img {
 
 .logo {
 	width: 190px;
+}
+
+.icon-location {
+  position: absolute;
+  width: 35px;
+  top: -15px;
+  right: -15px;
 }
 
 /* =================================
