@@ -97,6 +97,10 @@ img {
 	margin-top: 30px;
 }
 
+.container {
+  min-height: calc(100vh - 119px);
+}
+
 /* ---- Page Elements ---- */
 
 .headline {
